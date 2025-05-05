@@ -11,6 +11,7 @@ public class TernaryOp {
         int marks = sc.nextInt();
         String status = (marks >= 33)?"Pass":"Fail";
         System.out.println(status);
+        sc.close();
 
     }
     
