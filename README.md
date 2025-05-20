@@ -23,6 +23,8 @@ A collection of Java problems and solutions curated for:
 ---
 
 ✨Goals
+
+
 📈 Sharpen Java skills consistently
 
 🧠 Build strong algorithmic thinking
@@ -32,10 +34,16 @@ A collection of Java problems and solutions curated for:
 ---
 “Little by little, a little becomes a lot.” – Tanzanian Proverb
 
----
+
 Thought for the repo
+
+
 Why did the Java developer go broke?
+
 .
+
 .
+
 .
+
 Because they used up all their cache.
