@@ -22,5 +22,6 @@ public class SumEvenOdd {
 
         System.out.println("Odd Sum = "+oddSum);
         System.out.println("Even Sum = "+ evenSum);
+        sc.close();
     }
 }
