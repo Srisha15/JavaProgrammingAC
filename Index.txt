@@ -5,3 +5,5 @@
 05 = 
 06 = Arrays, Search
 07= array problems
+08=
+09= Strings
