@@ -1,5 +1,11 @@
 
 public class IntroStrings {
+    public static void printLetters(String str){
+        for(int i = 0; i < str.length(); i++){
+            System.out.print(str.charAt(i)+" ");
+        }
+        System.out.println();
+    }
     public static void main(String[] args) {
         //1. String var_name = "Value"
         String str = "Srisha";
@@ -23,6 +29,7 @@ public class IntroStrings {
 
         //charAt Method
         System.out.println(FullName1.charAt(0));
+        printLetters("Tony Stark");
 
 
 
