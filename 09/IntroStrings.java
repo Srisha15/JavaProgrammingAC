@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class IntroStrings {
     public static void main(String[] args) {
@@ -14,6 +13,18 @@ public class IntroStrings {
 
         String fullName = "Tony Stark";
         System.out.println(fullName.length());
+
+
+        //CONCATENATION
+        String firstName = "Srisha";
+        String lastName = "Sharma";
+
+        String  FullName1 = firstName + " " + lastName;
+
+        //charAt Method
+        System.out.println(FullName1.charAt(0));
+
+
 
 
 
