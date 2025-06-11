@@ -124,6 +124,12 @@ class Student{
     //     this.marks = s1.marks;
     // }
 
+//     But when you do this.marks = s1.marks, you are not copying the marks themselves.
+
+// Instead, you are sharing the same array between both students.
+
+// So both students now point to the same memory for marks.
+
     //deep copy constructor
 
     Student(Student s1){
@@ -132,6 +138,7 @@ class Student{
         this.roll = s1.roll;
         for(int i =0; i < marks.length; i++){
             this.marks[i] = s1.marks[i];
+            //This ensures the values are the same, but the array is not shared.
         }
     }
 
@@ -161,3 +168,6 @@ class BankAccount{
         password = pwd;
     }
 }
+
+
+
